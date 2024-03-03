@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gửi lời mời tham gia sự kiện</title>
+  <style>
+    button {
+      background-color: #0600b7;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      margin: 10px;
+    }
+    button:hover {
+      background-color: #004b92;
+    }
+    body {background-color: #f0eeee;}
+  </style>
+</head>
+<body >
+    <div style="border: 1px solid rgb(242, 237, 237); padding: 5px; text-align: center;">
+        <img src="https://cdn-icons-png.freepik.com/512/7469/7469200.png" width="50" height="50">
+        <h1>Gửi lời mời tham gia sự kiện</h1>
+        <p> Hãy nhập email người mà bạn muốn gửi lời mời </p>
+        <form action="submit.php" method="post">
+            <label for="email"> </label>
+            <input style="width: 300px; height: 30px; border: 1px solid rgb(255, 250, 250)" placeholder="Enter Email" id="email" name="email" required>
+        </form>
+        <button>Gửi lời mời !</button>
+    </div>
+</body>
+</html>
